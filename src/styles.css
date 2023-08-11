@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+:root {
+    --main-text: #1e90ff;
+    --main-background: #f0f0f0;
+}
+
+@font-face {
+    font-family: 'custom-font';
+    src: url(./assets/font/Kalam-Bold.ttf);
+}
+
+body {
+    font-family: 'custom-font', cursive;
+}

@@ -1,0 +1,22 @@
+.background-menu {
+    background-color: white;
+    /* background-color: var(--main-text) */
+}
+
+.background-section1 {
+    background-color: var(--main-background);
+    position: relative;
+    z-index: 1;
+}
+
+.background-section2 {
+    background-color: var(--main-text);
+    position: relative;
+    z-index: 1;
+}
+
+.fixed {
+    z-index: 2600;
+    position: fixed;
+    top: 0;
+}

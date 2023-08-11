@@ -1,0 +1,39 @@
+<nav class="navbar">
+    <div class="container">
+
+        <div class='col-6'>
+            <img src="./../../../assets/logo.png" style='height: 50px;'>
+        </div>
+
+        <div class="col-6 d-flex justify-content-evenly">
+            <a class='fs-4' href="#home">Home</a>
+
+            <a class='fs-4' href="#about">About me</a>
+
+            <a class='fs-4' href="#proyects">Proyects</a>
+
+            <a class='fs-4' data-bs-toggle="modal" data-bs-target="#staticBackdrop">Contact me</a>
+
+        </div>
+
+    </div>
+
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+
+                <app-contact-me></app-contact-me>
+
+            </div>
+
+        </div>
+    </div>
+</div>

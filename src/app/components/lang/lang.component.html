@@ -1,0 +1,26 @@
+<div class='fixed-bottom position-lang'>
+    <button class='btn-icon' role="button" (click)='btnIconActive()' [ngClass]="{'btn-icon-animated': btnIconAnimated,
+    'btn-icon-animated-out': !btnIconAnimated && btnIconAnimated2
+    }">
+        <img src="../../../assets/icon/setting.svg">
+    </button>
+    <div class="position-absolute">
+
+        <div class='position-relative'>
+
+            <div class='bg-danger position-absolute icon1' [ngClass]="{
+                'icon1-animated': btnIconAnimated,
+                'icon1-animated-out': !btnIconAnimated && btnIconAnimated2
+            }">
+                <img src="../../../assets/lang/united-states.png" (click)="changeLang('en')" class='icon-lang'>
+            </div>
+
+            <div class='bg-info position-absolute icon2' [ngClass]="{
+                'icon2-animated': btnIconAnimated,
+                'icon2-animated-out': !btnIconAnimated && btnIconAnimated2
+            }">
+                <img src=" ../../../assets/lang/spain.png" (click)="changeLang('es')" class='icon-lang'>
+            </div>
+        </div>
+    </div>
+</div>

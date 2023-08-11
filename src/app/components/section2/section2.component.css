@@ -1,0 +1,67 @@
+.icon-skill {
+    cursor: pointer;
+    margin: 1vh 1vh;
+
+    @media (min-width: 991px) {
+        max-width: 8vh;
+    }
+
+    @media (max-width: 990px) {
+        max-width: 5vh;
+    }
+}
+
+.text-about {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+@media (min-width: 991px) {
+    .text-about {
+        font-size: 1.5rem;
+    }
+
+    .graphic {
+        height: 15vw;
+    }
+}
+
+@media (max-width: 990px) {
+    .text-about {
+        font-size: .7rem;
+    }
+
+    .graphic {
+        height: 45vw;
+    }
+}
+
+.item {
+    color: var(--main-text);
+}
+
+.item::before {
+    content: "";
+    display: block;
+    background-color: black;
+    width: 110%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
+    transition: clip-path .3s;
+}
+
+.item:hover::before {
+    clip-path: polygon(0 0, 85% 0, 100% 100%, 0% 100%);
+}
+
+.item:hover {
+    color: wheat;
+}
+
+.box-shadow {
+    box-shadow: -10px 10px rgb(15, 99, 196);
+}

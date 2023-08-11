@@ -1,0 +1,115 @@
+.position-lang {
+    bottom: 40px;
+    left: 30px;
+    right: auto;
+}
+
+.icon-lang {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.icon-lang {
+    cursor: pointer;
+    width: 3vw;
+}
+
+.btn-icon {
+    background-color: transparent;
+    border: none;
+}
+
+.btn-icon-animated {
+    animation: animationRotate .3s forwards;
+}
+
+@keyframes animationRotate {
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.btn-icon img {
+    width: 2.5vw;
+    filter: invert(0%) sepia(0%) saturate(7444%) hue-rotate(278deg) brightness(96%) contrast(98%);
+}
+
+.icon1 {
+    top: -3vh;
+    opacity: 0;
+    z-index: -1;
+}
+
+.icon1-animated {
+    opacity: 1;
+    z-index: 0;
+    animation: icon1Animation .3s forwards;
+}
+
+@keyframes icon1Animation {
+    100% {
+        transform: translate(0, -1vw);
+    }
+}
+
+.icon2 {
+    top: -3vh;
+    opacity: 0;
+    z-index: -1;
+}
+
+.icon2-animated {
+    opacity: 1;
+    z-index: 0;
+    animation: icon2Animation .3s forwards;
+}
+
+@keyframes icon2Animation {
+    100% {
+        transform: translate(0, -3.5vw);
+    }
+}
+
+.btn-icon-animated-out {
+    animation: animationRotate-out .3s forwards;
+}
+
+@keyframes animationRotate-out {
+    100% {
+        transform: rotate(180deg);
+    }
+}
+
+.icon1-animated-out {
+    z-index: -1;
+    animation: icon1Animation-out .3s forwards;
+    transition: opacity .3s;
+}
+
+@keyframes icon1Animation-out {
+    0% {
+        transform: translate(0, -1vw);
+    }
+
+    100% {
+        transform: translate(0vw, 0vw);
+    }
+}
+
+.icon2-animated-out {
+    z-index: -1;
+    animation: icon2Animation-out .3s forwards;
+    transition: opacity .3s;
+}
+
+@keyframes icon2Animation-out {
+    0% {
+        transform: translate(0vw, -3.5vw);
+    }
+
+    100% {
+        transform: translate(0vw, 0vw);
+    }
+}
