@@ -1,0 +1,21 @@
+{
+    "MENU": {
+        "HOME": "Home",
+        "ABOUT": "About",
+        "PROYECTS": "Proyects",
+        "INTRO": "Welcome to my portfolio"
+    },
+    "SECTION1": {
+        "TEXT1": "Hi my name is",
+        "TEXT2": "And i`m"
+    },
+    "SECTION2": {
+        "TEXT1": "About Me",
+        "TEXT2": "I am a FrontEnd developer passionate about what I do, I always try to be constantly learning and growing, the world of technology is evolving and I am with it I like to face challenges to use my creativity to solve problems",
+        "TEXT3": "Think big but take small steps",
+        "TEXT4": "Skills"
+    },
+    "SECTION3": {
+        "TEXT1": "Portfolio"
+    }
+}

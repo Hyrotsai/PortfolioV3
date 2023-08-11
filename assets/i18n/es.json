@@ -1,0 +1,21 @@
+{
+    "MENU": {
+        "HOME": "Inicio",
+        "ABOUT": "Acerca de mi",
+        "PROYECTS": "Proyectos",
+        "INTRO": "Bienvenido a mi portafolio"
+    },
+    "SECTION1": {
+        "TEXT1": "Hola mi nombre es",
+        "TEXT2": "Y soy"
+    },
+    "SECTION2": {
+        "TEXT1": "Acerca de mi",
+        "TEXT2": "Soy un desarrollador FrontEnd apasionado por lo que hago, siempre intento estar en constante aprendizaje y crecimiento, el mundo de la tecnologia esta en evolucion y yo junto a el me gusta enfrentarme a retos para utilizar mi creatividad para dar solucion a problemas",
+        "TEXT3": "Piensa en grande pero da pequeños pasos",
+        "TEXT4": "Habilidades"
+    },
+    "SECTION3": {
+        "TEXT1": "Portafolio"
+    }
+}
